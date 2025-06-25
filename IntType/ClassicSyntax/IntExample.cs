@@ -1,15 +1,15 @@
 // Concept: int Data Type
 // Description: Demonstrates how to declare, assign, and use int variables in C#.
-// Syntax: Old (Explicit Main method, .NET Framework style)
+// Syntax: Classic (Explicit Main method, .NET Framework style)
 // Author: Your Name
 // Date: 2025-06-19
 
 /*
-Old Syntax Structure in C# Console Apps:
+Classic Syntax Structure in C# Console Apps:
 
 using System; // Imports the System namespace for basic functionality
 
-namespace IntTypeOldSyntax
+namespace IntTypeClassicSyntax
 {
     class IntExample // Class definition
     {
@@ -24,7 +24,7 @@ namespace IntTypeOldSyntax
 
 using System;
 
-namespace IntTypeOldSyntax
+namespace IntTypeClassicSyntax
 {
     class IntExample
     {

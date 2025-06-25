@@ -81,6 +81,24 @@ class Program
 }
 ```
 
+## How to Run C# Code
+
+To run a C# project using the .NET CLI:
+
+1. Open a terminal or command prompt.
+2. Navigate to your project folder (where the `.csproj` file is located):
+   ```
+   cd path/to/your/project
+   ```
+3. Run the project:
+   ```
+   dotnet run
+   ```
+
+This will build and execute your C# application. You should see the output in your terminal.
+
+---
+
 ## Purpose
 
 - Explore C# language features
