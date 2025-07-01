@@ -9,7 +9,7 @@ namespace BooleanClassicSyntax
             // Declaring and initializing bool variables
             bool isActive = true;
             bool isComplete = false;
-            bool isAdult = (20 >= 18); // true
+            bool isAdult = 20 >= 18; // true
 
             // Logical operations
             bool result1 = isActive && isComplete; // false
