@@ -68,13 +68,23 @@ myDog.Speak(); // Output: Rex makes a sound.
 
 ## Basic C# Syntax Overview
 
+### LatestSyntax (Top-level statements)
+
+This is the modern C# approach (C# 9.0+), where you don't need to explicitly declare a `Main` method. Code can be written directly at the top level of the file.
+
 ```csharp
-// Latest Syntax (Top-level statements)
+// LatestSyntax Example
 int age = 25;
 string name = "Alice";
 Console.WriteLine($"Hello, {name}! You are {age} years old.");
+```
 
-// Old Syntax (Explicit Main method)
+### ClassicSyntax (Explicit Main method)
+
+This is the traditional C# approach, where you must define a `Main` method as the program entry point. This style is still widely used and is required for .NET Framework projects and some advanced scenarios.
+
+```csharp
+// ClassicSyntax Example
 using System;
 class Program
 {
@@ -103,7 +113,6 @@ To run a C# project using the .NET CLI:
 
 This will build and execute your C# application. You should see the output in your terminal.
 
-
 ## What are NuGet Packages?
 
 - **NuGet** is the package manager for .NET. It allows you to add, update, and manage third-party libraries and tools in your projects.
@@ -112,6 +121,7 @@ This will build and execute your C# application. You should see the output in yo
 ### How to Add NuGet Packages
 
 **Using the .NET CLI:**
+
 1. Open a terminal and navigate to your project folder.
 2. Run:
    ```
@@ -123,6 +133,7 @@ This will build and execute your C# application. You should see the output in yo
    ```
 
 **Using Visual Studio:**
+
 1. Right-click your project in Solution Explorer.
 2. Select "Manage NuGet Packages..."
 3. Search for the package and click "Install".
