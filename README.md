@@ -7,6 +7,12 @@ This repository is dedicated to learning and practicing .NET and C# development.
 - **C#** is a modern, object-oriented programming language developed by Microsoft.
 - **.NET** is a free, open-source developer platform for building many types of applications (web, desktop, mobile, cloud, etc.) using C# and other languages.
 
+## About .NET and .NET Framework
+
+- **.NET (Core/5/6/7/8+)** is a modern, cross-platform, open-source developer platform for building many types of applications (web, desktop, mobile, cloud, etc.) using C#, F#, or VB.NET. It is the current and recommended platform for new projects.
+- **.NET Framework (up to v4.8.1)** is the original, Windows-only version of .NET. It is still supported for maintaining legacy applications, but new development should use .NET (Core/5/6/7/8+).
+- **Key difference:** .NET is cross-platform and open-source, while .NET Framework is Windows-only and closed-source.
+
 ## Object-Oriented Programming (OOP) Concepts in C#
 
 C# is built around OOP principles, which help organize and structure code. The four main OOP concepts are:
@@ -96,6 +102,31 @@ To run a C# project using the .NET CLI:
    ```
 
 This will build and execute your C# application. You should see the output in your terminal.
+
+## What are NuGet Packages?
+
+- **NuGet** is the package manager for .NET. It allows you to add, update, and manage third-party libraries and tools in your projects.
+- Packages are published on [nuget.org](https://www.nuget.org/), the official NuGet package repository.
+
+### How to Add NuGet Packages
+
+**Using the .NET CLI:**
+1. Open a terminal and navigate to your project folder.
+2. Run:
+   ```
+   dotnet add package <PackageName>
+   ```
+   Example:
+   ```
+   dotnet add package Newtonsoft.Json
+   ```
+
+**Using Visual Studio:**
+1. Right-click your project in Solution Explorer.
+2. Select "Manage NuGet Packages..."
+3. Search for the package and click "Install".
+
+NuGet will automatically download the package and update your project files.
 
 ---
 

@@ -8,13 +8,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DoubleType", "DoubleType", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LatestSyntax", "VariablesAndDataTypes\DoubleType\LatestSyntax\LatestSyntax.csproj", "{088A4D10-C7D7-50E3-3766-DD69E513BF54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OldSyntax", "VariablesAndDataTypes\DoubleType\OldSyntax\OldSyntax.csproj", "{61E557AD-66CF-1DDA-B1D3-88F1ACFAB705}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassicSyntax", "VariablesAndDataTypes\DoubleType\ClassicSyntax\ClassicSyntax.csproj", "{61E557AD-66CF-1DDA-B1D3-88F1ACFAB705}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IntType", "IntType", "{0D2FA44C-211F-18FD-5278-1048D448005A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LatestSyntax", "VariablesAndDataTypes\IntType\LatestSyntax\LatestSyntax.csproj", "{3E0B21CA-79B6-7F42-A221-0948F5DB88A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OldSyntax", "VariablesAndDataTypes\IntType\OldSyntax\OldSyntax.csproj", "{25D9FE24-CBD6-BEF7-1B22-B19F1D303761}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassicSyntax", "VariablesAndDataTypes\IntType\ClassicSyntax\ClassicSyntax.csproj", "{25D9FE24-CBD6-BEF7-1B22-B19F1D303761}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

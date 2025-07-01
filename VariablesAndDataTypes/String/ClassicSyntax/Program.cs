@@ -17,10 +17,31 @@ namespace StringClassicSyntax
             // String interpolation (recommended)
             string interpolated = $"Hi {name}, {message}";
 
+            // String length
+            int greetingLength = greeting.Length;
+
+            // Substring
+            string sub = greeting.Substring(0, 5); // "Hello"
+
+            // ToUpper and ToLower
+            string upper = name.ToUpper();
+            string lower = name.ToLower();
+
+            // Replace
+            string replaced = greeting.Replace("World", name);
+
+            // Contains
+            bool hasWelcome = message.Contains("Welcome");
+
             // Printing values
             Console.WriteLine(greeting);
             Console.WriteLine(fullGreeting);
             Console.WriteLine(interpolated);
+            Console.WriteLine($"Length of greeting: {greetingLength}");
+            Console.WriteLine($"Substring: {sub}");
+            Console.WriteLine($"Upper: {upper}, Lower: {lower}");
+            Console.WriteLine($"Replaced: {replaced}");
+            Console.WriteLine($"Message contains 'Welcome': {hasWelcome}");
         }
     }
 }
