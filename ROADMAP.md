@@ -66,7 +66,7 @@
 
 ## Backend-Focused .NET Roadmap
 
-See [BackendRoadmap.md](./BackendRoadmap.md) for a detailed backend learning path, including:
+See [ROADMAP-FOR-BACKEND.md](./ROADMAP-FOR-BACKEND.md) for a detailed backend learning path, including:
 
 - Core backend concepts
 - Building APIs with ASP.NET Core
@@ -76,7 +76,7 @@ See [BackendRoadmap.md](./BackendRoadmap.md) for a detailed backend learning pat
 
 ## 10. Testing and Debugging
 
-See [TestingAndDebugging.md](./TestingAndDebugging.md) for a detailed guide on:
+See [ROADMAP-FOR-TESTING.md](./ROADMAP-FOR-TESTING.md) for a detailed guide on:
 
 - Unit Testing (xUnit, MSTest, NUnit)
 - Debugging tools in Visual Studio/VS Code
