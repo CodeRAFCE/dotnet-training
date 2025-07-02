@@ -64,57 +64,23 @@
 
 ---
 
-# Backend-Focused .NET Roadmap
+## Backend-Focused .NET Roadmap
 
-## 1. Core Backend Concepts
+See [BackendRoadmap.md](./BackendRoadmap.md) for a detailed backend learning path, including:
 
-- HTTP, REST, and Web APIs
-- JSON serialization/deserialization
-- Routing and Controllers
-- Dependency Injection
-- Middleware
-
-## 2. Building APIs with ASP.NET Core
-
-- Creating and configuring a Web API project
-- Defining controllers and actions
-- Model binding and validation
-- Using Entity Framework Core for data access
-- CRUD operations (Create, Read, Update, Delete)
-- Authentication and Authorization (JWT, Identity)
-- Error handling and logging
-- Versioning APIs
-- OpenAPI/Swagger documentation
-
-## 3. Data and Persistence
-
-- Working with databases (SQL Server, SQLite, PostgreSQL, etc.)
-- Migrations and seeding
-- Repository and Unit of Work patterns
-- Connection strings and configuration
-
-## 4. Advanced Backend Topics
-
-- Background services and Worker Services
-- Caching (in-memory, distributed)
-- Rate limiting and throttling
-- Asynchronous programming in web APIs
-- Testing APIs (unit, integration, and end-to-end)
-- Secure API design and best practices
-
-## 5. Deployment and Operations
-
-- Publishing and deploying .NET apps (IIS, Azure, Docker, Linux)
-- Environment-based configuration
-- Monitoring and health checks
-- CI/CD basics for .NET projects
-
----
+- Core backend concepts
+- Building APIs with ASP.NET Core
+- Data and persistence
+- Advanced backend topics
+- Deployment and operations
 
 ## 10. Testing and Debugging
 
+See [TestingAndDebugging.md](./TestingAndDebugging.md) for a detailed guide on:
+
 - Unit Testing (xUnit, MSTest, NUnit)
 - Debugging tools in Visual Studio/VS Code
+- Test organization, mocking, code coverage, integration/end-to-end testing, CI, and production debugging
 
 ## 11. Best Practices
 
